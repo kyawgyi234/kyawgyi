@@ -1,6 +1,6 @@
 {
     "title" : "Need Update App"
-    ,"message" : "Please Update Software\n *Improve UI* "
+    ,"message" : "Please Update Software *Improve UI* "
 
 ,"versionCode" : 2,
     "force" : true,
