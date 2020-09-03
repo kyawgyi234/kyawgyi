@@ -1,70 +1,12 @@
 {
     "contacts": [
         {
-            
-                "id": "c200",
-                "name": "Ravi Tamada"
+                "code": "c200",
                 
         },
         {
-                "id": "c201",
-                "name": "Johnny Depp"
-               
-        },
-        {
-                "id": "c202",
-                "name": "Leonardo Dicaprio"
-           
-        },
-        {
-                "id": "c203",
-                "name": "John Wayne"
-             
-        },
-        {
-                "id": "c204",
-                "name": "Angelina Jolie"
-             
-        },
-        {
-                "id": "c205",
-                "name": "Dido"
-            
-        },
-        {
-                "id": "c206",
-                "name": "Adele"
-             
-        },
-        {
-                "id": "c207",
-                "name": "Hugh Jackman"
-            
-        },
-        {
-                "id": "c208",
-                "name": "Will Smith"
-             
-        },
-        {
-                "id": "c209",
-                "name": "Clint Eastwood"
-             
-        },
-        {
-                "id": "c2010",
-                "name": "Barack Obama"
-             
-        },
-        {
-                "id": "c2011",
-                "name": "Kate Winslet"
-            
-        },
-        {
-                "id": "c2012",
-                "name": "Eminem"
-              
+                "code": "c201",
+                
         }
     ]
 }
