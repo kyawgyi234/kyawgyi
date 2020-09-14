@@ -1,0 +1,55 @@
+{
+  "tv": [
+    {
+      "id": "1",
+      "title": "Algérie 3",
+      "description": "Algérie 3 (en arabe : القناة الجزائرية الثالثة), également connue sous le nom de A3, est la troisième chaîne de télévision algérienne de l'Établissement public de télévision.",
+      "localImageResource": "algerie_3_logo",
+      "url": "https://www.livedoomovies.com/02_epl1_720p/chunklist.m3u8"
+    },
+    {
+      "id": "8",
+      "title": "Samira TV",
+      "description": "Samira TV est une chaîne de télévision gastronomique algérienne, lancée le 1ᵉʳ juillet 2013. Il s'agit de la première chaîne de télévision dédiée à la cuisine au Maghreb.",
+      "localImageResource": "samira_tv_logo",
+      "url": ""
+    }
+  ],
+  "radio": [
+  {
+    "id": "1",
+    "title": "Chaine 1",
+    "description": "",
+    "localImageResource": "radio_algerie_logo",
+    "url": ""
+  },
+  {
+    "id": "2",
+    "title": "El Bahdja",
+    "description": "",
+    "localImageResource": "bahdja_logo",
+    "url": ""
+  },
+  {
+    "id": "3",
+    "title": "Jil FM",
+    "description": "",
+    "localImageResource": "jil_fm_logo",
+    "url": ""
+  },
+  {
+    "id": "4",
+    "title": "Radio Dzair",
+    "description": "",
+    "localImageResource": "radio_algerie_logo",
+    "url": ""
+  },
+  {
+      "id": "5",
+      "title": "Radio Coran",
+      "description": "",
+      "localImageResource": "radio_algerie_logo",
+      "url": ""
+  }
+  ]
+}
