@@ -1,16 +1,41 @@
 <?php
+require('simple_html_dom.php');
+class YandexModel implements JsonSerializable {
+    private $url;
+    public function __construct($url) {
+        $this->url = $url;
+    }
+
+    public function jsonSerialize() {
+        return get_object_vars($this);
+    }
+}
 
 
-require ("simple_html_dom.php");
-$html=new simple_html_dom();
+//$url="https://yoteshinportal.cc/yandex/4-th-class-2009-mp-4";
+function getDirectLink($url){
 
-$html->load_file("https://megaup.net/T75a/The.Racer.2020.720p_%7BCM%7D_.mp4");
+    $html=new  simple_html_dom();
+    $html->load_file($url);
 
-$script=$html->find('script[!src][!type]',0);
+    $meta = $html->find('meta[itemprop=contentURL]', 0);
+       $videolink = $meta->content;
+      if(isset($meta)) {
+          $model=new YandexModel($videolink);
+     }
+      else{
+          $model=new YandexModel(null);
+    }
+
+    return $model;
+
+}
 
 
-$pattern="/href='(.*?)'/";
-preg_match($pattern,$script,$matches);
-$downloadlink=$matches[1];
+if(isset($_GET['url'])){
+    $url=$_GET['url'];
+    $model=getDirectLink($url);
+    echo json_encode($model);
+}
 
-echo $downloadlink;
+?>
