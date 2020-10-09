@@ -1,1 +1,9 @@
 
+{
+  "status" :true,
+  "title" : "Hello",
+  "message" : "Welcome from Server ",
+  "showinfo" : true,
+  "maintenance": false
+  
+}
