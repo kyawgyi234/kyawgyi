@@ -1,8 +1,8 @@
 
 {
-  "status" :false,
-  "title" : "Hello",
-  "message" : "Welcome from Server ",
+  "status" :true,
+  "title" : "မဂ်လာအပေါင်းနှင့်ပြည့်စုံပါစေ",
+  "message" : "ကော်ဖီ ဖိုး လက်ဖတ်ရည်ဖိုးများ  bbox myanmar facebook pageသို့ပေးချင်ရင်လာပေးနိုင်ပါတယ်ခင်ဗျ",
   "showinfo" : true,
   "maintenance": false
   
